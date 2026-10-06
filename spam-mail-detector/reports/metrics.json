@@ -1,0 +1,74 @@
+{
+  "dataset_rows": 5572,
+  "ham_count": 4825,
+  "spam_count": 747,
+  "test_size": 0.2,
+  "random_state": 42,
+  "naive_bayes": {
+    "accuracy": 0.979372197309417,
+    "precision": 1.0,
+    "recall": 0.8456375838926175,
+    "f1": 0.9163636363636364,
+    "report": {
+      "ham": {
+        "precision": 0.9767441860465116,
+        "recall": 1.0,
+        "f1-score": 0.9882352941176471,
+        "support": 966.0
+      },
+      "spam": {
+        "precision": 1.0,
+        "recall": 0.8456375838926175,
+        "f1-score": 0.9163636363636364,
+        "support": 149.0
+      },
+      "accuracy": 0.979372197309417,
+      "macro avg": {
+        "precision": 0.9883720930232558,
+        "recall": 0.9228187919463087,
+        "f1-score": 0.9522994652406418,
+        "support": 1115.0
+      },
+      "weighted avg": {
+        "precision": 0.9798519136510586,
+        "recall": 0.979372197309417,
+        "f1-score": 0.9786309201218197,
+        "support": 1115.0
+      }
+    }
+  },
+  "logistic_regression": {
+    "accuracy": 0.9847533632286996,
+    "precision": 0.9342105263157895,
+    "recall": 0.9530201342281879,
+    "f1": 0.9435215946843853,
+    "report": {
+      "ham": {
+        "precision": 0.9927310488058152,
+        "recall": 0.989648033126294,
+        "f1-score": 0.991187143597719,
+        "support": 966.0
+      },
+      "spam": {
+        "precision": 0.9342105263157895,
+        "recall": 0.9530201342281879,
+        "f1-score": 0.9435215946843853,
+        "support": 149.0
+      },
+      "accuracy": 0.9847533632286996,
+      "macro avg": {
+        "precision": 0.9634707875608024,
+        "recall": 0.971334083677241,
+        "f1-score": 0.9673543691410522,
+        "support": 1115.0
+      },
+      "weighted avg": {
+        "precision": 0.9849108175493005,
+        "recall": 0.9847533632286996,
+        "f1-score": 0.9848174872855336,
+        "support": 1115.0
+      }
+    }
+  },
+  "selected_model": "Logistic Regression"
+}
